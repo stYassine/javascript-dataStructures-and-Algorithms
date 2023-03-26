@@ -1,0 +1,45 @@
+// What is a Stack ?
+- a Stack is like a can of tennis balls
+- when we add something to a stack, we say we're pushing an item to the Stack
+- and if we're removing an item from the Stack it's popping
+
+/// getting an item
+- if you have a stack with 2 items in it,
+you can't remove the bottom one,
+you need to remove the top item first
+
+
+// LIFO
+Last In First Out
+
+- a very common way of implementing a stack is to use an Array
+- and remember with a stack, we're going to add and remove from the same end,
+does not matter which end that is 
+
+- where not going to use an array because it's already included in JS,
+and we want to write some code
+
+// in an Interview
+- when they ask you how would you implement a stack with an Array
+- it does matter which end you use:
+- when you add something to the end of the Array or you remove it,
+it's O(1)
+
+- where as you do it on the other end (beginning),
+remember you have re-index the Entire array, after adding or removing
+it's O(n)
+
+- so if you're going to do a stack with an array ALWAYS do it on the End,
+you're just going to push or pop
+
+
+
+
+
+
+
+
+
+
+
+

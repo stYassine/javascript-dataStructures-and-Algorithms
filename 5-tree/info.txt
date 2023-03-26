@@ -1,0 +1,77 @@
+/// What is a Tree
+- well we've already seen a Tree, and that is a LinkedList.
+- a LinkedList is a Form of a Tree, it's just a tree that doesn't Fork.
+- we can use a LinkedList Node as a starting point for creating a Node for a Tree
+- LinkedList Node:
+{
+   value: 4,
+   next: null
+}
+
+- we're gonna turn it into a Binary Tree Node.
+- a Binary Tree is gonna have 2 arrows, it will Look like this
+{
+   value: 4,
+   left: null,
+   right: null
+}
+
+- add a couple of Nodes to Point at, so from an Object Perspective it will look like
+{
+   value: 4,
+   left:{
+      value: 3,
+      left: null,
+      right: null
+   },
+   right:{
+      value: 23,
+      left: null,
+      right: null
+   }
+}
+
+// NOTE
+There is no Rule that a Tree needs to be Binary,
+you can have it point to 3 items, or 10 items or how many item you want
+ 
+// BUT
+- for what we're creating here, it's by definition a Binary Tree, because it has Left & Right,
+then of course each of these nodes we've added can point to more nodes
+
+// Terminology
+- Top Item of each children is Called Parent
+- If Children share the same Parent, they are called Siblings,
+- every child Node, has only 1 a parent Node,
+you can't have more than 1 Parent in a tree
+- Node that does not have any Children is called a Leaf (Leaf Nodes)
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////
+/// Algorithms
+///////////////////////////////////////////////////////////////////////
+
+
+////////////////
+// breadth first search
+////////////////
+
+
+////////////////
+// DFS Pre Order
+////////////////
+
+
+
+////////////////
+// DFS Post Order
+////////////////
+
+
+
+////////////////
+// DFS In Order
+////////////////
